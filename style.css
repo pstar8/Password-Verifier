@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid #632c32;
+}
+
+button {
+  background-color: #632c32;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  color: #efefef;
+  cursor: pointer;
+}
